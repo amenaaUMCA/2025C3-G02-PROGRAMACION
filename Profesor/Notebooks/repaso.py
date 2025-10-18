@@ -10,8 +10,15 @@
 # Paso 1: Pedir la edad.
 # Paso 2: Usar una estructura if-else para mostrar el mensaje correspondiente.
 # ============================================================
+def ejercicio1():
+    print('\nEjercicio Número')
+    edad = int(input('Ingrese su edad profavor: '))
+    if edad >= 18:
+        print('Eres mayor de edad')
+    else:
+        print('Ere menor de edad')
 
-
+#ejercicio1()
 # ============================================================
 # EJERCICIO 2: Número positivo, negativo o cero
 # ------------------------------------------------------------
@@ -19,7 +26,17 @@
 # Paso 1: Solicitar el número.
 # Paso 2: Evaluar las tres condiciones usando if, elif y else.
 # ============================================================
+def ejercicio2():
+    numero = int(input('Ingrese un número porfavor: '))
+    if numero > 0:
+        print('Número Positivo!')
+    elif numero < 0:
+        print('Número Negativo!')
+    else:
+        print('El número es Cero!')
 
+#llamada a la función
+#ejercicio2()
 
 # ============================================================
 # EJERCICIO 3: Par o impar
@@ -47,7 +64,10 @@
 # Paso 1: Pedir los tres números.
 # Paso 2: Comparar usando condicionales anidados o múltiples condiciones.
 # ============================================================
+def ejercicio5():
+    pass
 
+ejercicio5()
 
 # ============================================================
 # EJERCICIO 6: Descuento en tienda
